@@ -30,7 +30,7 @@ export function ProjectCard({ title, description, image, tags, github, demo }: P
             src={image || "/placeholder.svg"}
             alt={title}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-110"
+            className="object-cover transition-transform duration-300 group-hover:scale-150"
           />
         </div>
         <div className="p-6">

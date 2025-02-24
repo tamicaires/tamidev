@@ -100,28 +100,44 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProjectCard
-              title="Site Empresa de Milhas"
-              description="A modern e-commerce platform built with Next.js and Node.js"
-              image="/placeholder.svg"
-              tags={["Next.js", "Node.js", "PostgreSQL", "TypeScript"]}
-              github="https://github.com"
-              demo="https://demo.com"
-            />
-            <ProjectCard
               title="Gestão de Manutenção"
-              description="Landing page de Saas de Gestão de Manutenção de Frotas."
+              description="Site do Saas de Gestão de Manutenção de Frotas."
               image="https://i.ibb.co/rG21dBmL/image.png"
-              tags={["React", "NestJS", "Prisma ORM", "Postgres","WebSocket"]}
-              github="https://github.com"
-              demo="https://demo.com"
+              tags={["Next JS", "Tailwind", "TypeScript"]}
+              // github="https://github.com"
+              demo="https://facter.com.br"
             />
             <ProjectCard
-              title="Analytics Dashboard"
-              description="Data visualization dashboard with real-time updates"
-              image="/placeholder.svg"
-              tags={["TypeScript", "D3.js", "Express", "Redis"]}
-              github="https://github.com"
-              demo="https://demo.com"
+              title="Bora Trip Milhas"
+              description="A modern e-commerce platform built with Next.js and Node.js"
+              image="https://i.ibb.co/MysXTkV8/image.png"
+              tags={["Next.js", "Tailwind", "TypeScript"]}
+              // github="https://github.com"
+              demo="https://boratripmilhas.vercel.app/"
+            />
+            <ProjectCard
+              title="Englobal Consórcios"
+              description="Site profissional empresa de venda de consórcios."
+              image="https://i.ibb.co/k2TPsbq3/image.png"
+              tags={["TypeScript", "Next Js", "Tailwind"]}
+              // github="https://github.com"
+              demo="https://englobal.vercel.app/"
+            />
+            <ProjectCard
+              title="CT Rodrigo Argentino"
+              description="Site centro de treinamento de artes marciais."
+              image="https://i.ibb.co/RkGbdDqx/image.png"
+              tags={["TypeScript", "Next Js", "Tailwind"]}
+              // github="https://github.com"
+              demo="https://ctrodrigoargentino.com.br/"
+            />
+            <ProjectCard
+              title="União Siqueira"
+              description="Site profissional empresa de acabamentos e telhas."
+              image="https://i.ibb.co/JjX6G97x/image.png"
+              tags={["TypeScript", "Next Js", "Tailwind"]}
+              // github="https://github.com"
+              demo="https://uniao-siqueira-landing-page.vercel.app/#produtos"
             />
           </div>
         </div>
